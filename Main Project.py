@@ -1,12 +1,10 @@
 import requests;
 
-# summonerName = input("Welcome to the mini-desktop match tracker for League of Legends! Please enter your summoner name:")
-# tagline = input("What is your tagline?: ")
-# region = input("What region are you in?(enter americas for testing purposes): ")
-summonerName = 'serpentshadow299'
-tagline = 'NA1'
-region = 'americas'
+summonerName = input("Welcome to the mini-desktop match tracker for League of Legends! Please enter your summoner name:")
+tagline = input("What is your tagline?: ")
+region = input("What region are you in?(enter americas for testing purposes): ")
 
+#obviously you need your own api key
 api_key = "RGAPI-0294496c-12d8-4ecd-a7d1-3bb8226c5d5d"
 api_key_addon = "?api_key=" + api_key
 
